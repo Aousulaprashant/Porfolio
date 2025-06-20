@@ -1,0 +1,15 @@
+/* index.css */
+body {
+  margin: 0;
+  padding: 0;
+  cursor: none; /* hide native cursor */
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
