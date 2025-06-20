@@ -75,7 +75,10 @@ const index = () => {
   };
 
   return (
-    <section id="about" className="ml-16  max-w-5xl  px-0 py-4 cursor-auto ">
+    <section
+      id="about"
+      className="ml-4 md:ml-16  max-w-5xl  px-0 py-4 cursor-auto "
+    >
       {/* Header Section */}
       {/* Header Section - Centered */}
       <div
@@ -91,13 +94,9 @@ const index = () => {
         <span>Experience - {experienceData.heading.experienceDuration}</span>
       </div>
 
-      {/* Experience Cards */}
       <div className="relative pl-6 ">
-        {/* Double vertical lines */}
         <div className="absolute top-0 left-2 h-full w-2 bg-[#050b0a] z-0"></div>{" "}
-        {/* Teal */}
         <div className="absolute top-0 left-4 h-full w-2 bg-[#3faad8c9] z-0 "></div>{" "}
-        {/* Blue */}
         <div className="relative z-10 ml-6 " data-aos="fade-up">
           {experienceData.jobs.map((job, index) => (
             <div key={index} className="mb-10 ">

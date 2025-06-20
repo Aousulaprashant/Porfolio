@@ -4,10 +4,10 @@ import Img from "../../IMG/myAiPic.png";
 const index = () => {
   return (
     <div id="summary" className="">
-      <div className="mt-16 pt-[40px] flex flex-col md:flex-row items-center justify-center px-6 py-16 shadow-sm">
-        <div className="ml-11 md:w-1/2 text-center md:text-left">
+      <div className="mt-16 pt-[40px] flex flex-col md:flex-row items-center justify-center px:3 md:px-6 py-16 shadow-sm">
+        <div className="ml-11 md:w-1/2 text-left">
           <p className="text-lg text-gray-600">Hey! I'm</p>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2">
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mt-2">
             Aousula Prashanth
           </h1>
           <h2 className="text-xl  mt-1 font-semibold text-[#237192]">
@@ -28,7 +28,7 @@ const index = () => {
             />
           </h2>
 
-          <p className="mt-6 text-gray-700 leading-relaxed">
+          <p className="mt-6 text-gray-700 leading-relaxed ">
             I am a passionate software engineer with hands-on experience in
             building full-stack web applications using the MERN stack (MongoDB,
             Express.js, React.js, Node.js). I also have a strong foundation in
@@ -62,14 +62,14 @@ const index = () => {
 
         {/* Right: Profile Image */}
         {/* Right: Profile Image */}
-        <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center relative z-[50]">
-          <div className="absolute w-[19rem] h-[19rem] bg-[#3faad8c9] rounded-full top-0 md:top-4 z-10"></div>
+        <div className="md:w-1/2 mt-16 md:mt-0 flex justify-center relative z-[50]">
+          <div className="absolute w-[15rem] h-[15rem] md:w-[19rem] md:h-[19rem] bg-[#3faad8c9] rounded-full top-0 md:top-4 z-10"></div>
 
           <div className="relative z-[60]">
             <img
               src={Img}
               alt="Profile"
-              className="w-[21rem] h-[31rem] rounded-full animate-fade-in-up"
+              className="w-[16rem] h-[24rem] md:w-[21rem] md:h-[31rem] rounded-full animate-fade-in-up"
             />
           </div>
         </div>
