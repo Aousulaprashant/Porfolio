@@ -12,7 +12,7 @@ const skills = [
   { label: "React-Redux", icon: "/icons/Redux.png" },
   { label: "C++", icon: "/icons/C++.png" },
   { label: "Machine Learning", icon: "/icons/brain.png" },
-  { label: "MongoDB", icon: "/icons/MongoDb.png" },
+  { label: "MongoDB", icon: "/icons/MongoDB.png" },
   { label: "SQL", icon: "/icons/sql.png" },
   { label: "GitHub", icon: "/icons/GitHub.png" },
   { label: "Git", icon: "/icons/Git.png" },
