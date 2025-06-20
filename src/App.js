@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="w-screen md:w-full">
       <BlobCursor count={12} size={14} />
       <Home />
     </div>
