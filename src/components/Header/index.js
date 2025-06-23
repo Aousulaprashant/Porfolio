@@ -22,7 +22,7 @@ const Header = () => {
             src={logo}
             alt="Logo"
             style={{ filter: "hue-rotate(390deg) saturate(10)" }}
-            className="hidden md:flex w-[200px] h-[190px] object-contain"
+            className="h-[130px] md:flex md:w-[200px] md:h-[190px] object-contain"
           />
         </div>
 
