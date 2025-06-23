@@ -30,4 +30,8 @@
 .inner-dot {
   position: absolute;
 }
-
+@media (max-width:760px) {
+  .blob-container{
+    display: none;
+  }
+}

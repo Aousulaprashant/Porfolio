@@ -74,7 +74,7 @@ const AnimatedBlobCursor = ({ count = 12, size = 18 }) => {
         <div
           key={i}
           ref={(el) => (dotsRef.current[i] = el)}
-          className="fixed w-full mx-auto top-0 left-0 rounded-full pointer-events-none"
+          className="hidden md:flex md:fixed w-full mx-auto top-0 left-0 rounded-full pointer-events-none"
           style={{
             zIndex: 0, // always behind content
             width: `${size}px`,

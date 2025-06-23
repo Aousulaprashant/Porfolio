@@ -14,7 +14,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="w-screen fixed top-0 md:w-full bg-slate-50 shadow-md z-50 cursor-auto">
+    <header className="w-screen fixed top-0 md:w-full bg-gray-900 shadow-lg shadow-blue-300 z-50 cursor-auto">
       <div className="max-w-7xl mx-auto px-5 h-16 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center h-12">
@@ -27,7 +27,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6 font-bold text-gray-700">
+        <nav className="hidden md:flex space-x-6 font-bold text-slate-500">
           {NavItems.map((item) => (
             <a
               key={item.name}
@@ -40,7 +40,7 @@ const Header = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden z-50">
+        <div className="md:hidden z-50  text-white">
           <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
@@ -49,7 +49,7 @@ const Header = () => {
 
       {/* Mobile Menu: Always Rendered, Smooth Transition */}
       <div
-        className={`md:hidden overflow-hidden bg-slate-50 shadow-inner px-5 transition-all duration-500 ease-in-out ${
+        className={`md:hidden overflow-hidden bg-slate-700 shadow-inner px-5 transition-all duration-500 ease-in-out ${
           menuOpen ? "max-h-96 pt-2 pb-4" : "max-h-0"
         }`}
       >
@@ -63,7 +63,7 @@ const Header = () => {
               key={item.name}
               href={item.link}
               onClick={() => setMenuOpen(false)}
-              className="block py-1 font-semibold text-gray-700 hover:text-[#367cbdf9] transition-all"
+              className="block py-1 font-semibold text-gray-100 hover:text-[#367cbdf9] transition-all"
             >
               {item.name}
             </a>

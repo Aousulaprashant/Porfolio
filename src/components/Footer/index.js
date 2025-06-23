@@ -11,7 +11,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-black border-t mt-16 cursor-auto">
+    <footer className="bg-gray-900 	text-white border-t mt-16 cursor-auto">
       <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
           <h4 className="font-semibold mb-4">CONTACT DETAILS</h4>
