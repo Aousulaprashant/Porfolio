@@ -1,10 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-<<<<<<< HEAD
-import Img from "../../IMG/m.png";
-=======
 import Img from "../../IMG/myAiPic.png";
->>>>>>> b3bc404 (corrected responsive design)
 const index = () => {
   return (
     <div id="summary" className="">

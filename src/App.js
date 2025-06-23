@@ -18,13 +18,8 @@ function App() {
   }, []);
 
   return (
-<<<<<<< HEAD
-    <div className=" md:w-full">
-      <BlobCursor count={30} size={15} />
-=======
     <div className="overflow-x-hidden md:w-full">
       <BlobCursor count={18} size={15} />
->>>>>>> b3bc404 (corrected responsive design)
       <Home />
     </div>
   );
