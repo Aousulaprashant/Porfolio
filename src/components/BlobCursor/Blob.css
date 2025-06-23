@@ -18,6 +18,9 @@
   cursor: default;
 }
 
+.blob-container{
+  margin: auto auto;
+}
 .blob {
   position: absolute;
   will-change: transform;

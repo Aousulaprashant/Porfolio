@@ -18,8 +18,8 @@ function App() {
   }, []);
 
   return (
-    <div className="w-screen md:w-full">
-      <BlobCursor count={12} size={14} />
+    <div className=" md:w-full">
+      <BlobCursor count={30} size={15} />
       <Home />
     </div>
   );

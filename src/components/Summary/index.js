@@ -1,6 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import Img from "../../IMG/myAiPic.png";
+import Img from "../../IMG/m.png";
 const index = () => {
   return (
     <div id="summary" className="">
